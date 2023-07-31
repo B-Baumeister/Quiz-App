@@ -5,5 +5,5 @@ h1 {
   color: rgb(226, 43, 110);
   font-family: "Courier New", Courier, monospace;
   display: flex;
-  justify-content: center;
+  text-align: center;
 }
