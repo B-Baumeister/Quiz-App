@@ -1,14 +1,42 @@
 body {
-  background-color: rgb(134, 42, 110);
+  background-color: rgb(213, 233, 247);
 }
 h1 {
-  color: rgb(226, 43, 110);
+  color: rgb(252, 252, 252);
   font-family: "Courier New", Courier, monospace;
   display: flex;
   justify-content: center;
   border-style: dashed;
-  background-color: bisque;
+  background-color: rgb(230, 199, 233);
   padding: 1rem;
   margin: 2rem;
   border-radius: 20px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aliceblue;
+  border: 1px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 15cm;
+}
+
+nav {
+  background-color: rgb(163, 228, 240);
+  height: 3cm;
+}
+h2 {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: rgb(171, 252, 252);
+  text-align: center;
+  display: ;
+}
+
+ul {
+  background-color: rgb(171, 252, 252);
 }
