@@ -5,5 +5,10 @@ h1 {
   color: rgb(226, 43, 110);
   font-family: "Courier New", Courier, monospace;
   display: flex;
-  text-align: center;
+  justify-content: center;
+  border-style: dashed;
+  background-color: bisque;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 20px;
 }
