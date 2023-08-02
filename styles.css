@@ -74,8 +74,9 @@ img {
   right: -10px;
 }
 
-button.icons_avi {
+button .icons_navi {
   height: 50px;
+  color: black;
 }
 
 .button_area {
