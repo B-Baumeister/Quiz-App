@@ -1,3 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+@import "global.css";
+@import "button.css";
+@import "card.css";
+@import "header.css";
+@import "navigation.css";
+
 body {
   background-color: rgb(213, 233, 247);
   display: flex;
