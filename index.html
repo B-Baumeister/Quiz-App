@@ -4,52 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <h1>Quiz App</h1>
-    <div class="allcards">
+    <div class="all__Cards">
       <section class="card">
         <h2>Lorem ipsum dolor sit amet</h2>
         <div>
-          <span class="bookmark" aria-label="A heart for bookmark"
-            ><img src="./picture/heart.png" alt="bookmarks"
+          <span aria-label="A heart for bookmark"
+            ><img class="bookmark" src="./picture/heart.png" alt="bookmarks"
           /></span>
-          <div class="button_area">
-            <div class="showAnswer">
-              <button aria-label="Show Answer">Show Answer</button>
-            </div>
-            <div class="categorie">
-              <button>#categorie1</button>
-              <button>#categorie2</button>
-              <button>#categorie3</button>
+          <div class="card__button__position">
+            <button
+              type="button"
+              class="card__button__showAnswer"
+              aria-label="Show Answer"
+            >
+              Show Answer
+            </button>
+
+            <div>
+              <button class="card__button__categorie">#categorie1</button>
+              <button class="card__button__categorie">#categorie2</button>
+              <button class="card__button__categorie">#categorie3</button>
             </div>
           </div>
         </div>
       </section>
     </div>
-    <nav class="navigation">
-      <div>
-        <section class="icons_navi">
-          <button aria-label="Link to home">
-            <img src="./picture/home-button.png" alt="home" />
-          </button>
-        </section>
-      </div>
-      <div>
-        <section class="icons_navi">
-          <button aria-label="Link to all bookmarks">
-            <img src="./picture/heart.png" alt="bookmarks" />
-          </button>
-        </section>
-      </div>
-      <div>
-        <section class="icons_navi">
-          <button aria-label="Link to Profil">
-            <img src="./picture/user.png" alt="user button" />
-          </button>
-        </section>
-      </div>
+    <nav class="nav">
+      <section class="nav__imageButton">
+        <a href="/index.html">
+          <img src="./picture/home-button.png" aria-label="Link to home"
+        /></a>
+      </section>
+      <section class="nav__imageButton">
+        <a href="/Bookmarks-Page/bookmarks.html">
+          <img src="./picture/heart.png" aria-label="Link to all bookmarks"
+        /></a>
+      </section>
+      <section class="nav__imageButton">
+        <a href="/Profile-Page/profile.html">
+          <img src="./picture/user.png" aria-label="Link to Profil"
+        /></a>
+      </section>
     </nav>
   </body>
 </html>
