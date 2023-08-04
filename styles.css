@@ -1,14 +1,14 @@
-@charset "UTF-8";
+@import "components/header.css";
+@import "components/button.css";
+@import "components/card.css";
+@import "components/navigation.css";
+@import "components/global.css";
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-@import "header.css";
-@import "button.css";
-@import "card.css";
-@import "navigation.css";
-@import "global.css";
 
 body {
   background-color: rgb(213, 233, 247);
@@ -107,7 +107,4 @@ img.bookmark {
   align-items: center;
   position: fixed;
   bottom: 0;
-}
-.nav__imageButton, img /* navi Buttons */ {
-  width: 70px;
 }
