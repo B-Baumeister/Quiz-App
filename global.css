@@ -1,0 +1,55 @@
+/* e.g. type selectors like body or the universal selector *) */
+/*here are probably a lot of redundant values in the CSS code of your Quiz App. Typical cases are:
+
+colors / background colors
+borders
+font names
+gradients
+spacing
+Analyze your code and find redundant values.
+
+It is not necessary, for example, to define a specific hex value for a color in several places. You can define these kinds of redundant values in a single place (like the global.css or even a variables.css file).*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+:root {
+    --primary-color: #ff00ff;
+    --secondary-color: #f00f0f;
+  }
+
+*/
+
+body {
+  background-color: rgb(213, 233, 247);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: rgb(252, 252, 252);
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  border-style: dashed;
+  background-color: rgb(230, 199, 233);
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 5px grey;
+  font-size: 24px;
+}
+h2 {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: rgb(230, 199, 233);
+  display: flex;
+  border-radius: 0.5rem;
+  margin: 5px 5px 20px 5px;
+  padding: 1rem;
+  border: none;
+  box-shadow: 2px 2px 5px grey;
+  font-size: 1rem;
+}
